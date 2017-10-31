@@ -18,5 +18,5 @@
           Softamx function converts scores to probablity
           One hot encoding makes prob 1 or 0 
           Optimizer: SGD,GD, Adam optimizer
-          Fetaures =(28*28*3) and Labels(1,2,3).
+          Fetaures =(28 * 28 * 3) and Labels(1,2,3).
 

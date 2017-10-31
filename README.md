@@ -17,6 +17,14 @@
           where Y is score. or Logits
           Softamx function converts scores to probablity
           One hot encoding makes prob 1 or 0 
-          Optimizer: SGD,GD, Adam optimizer
+          Optimizer: SGD,GD, Adam optimizer,ADAGRAD(has momentum and learning rate decay)
           Fetaures =(28 * 28 * 3) and Labels(1,2,3).
+          One hot encoding is not good if labels are like in large nos
+          Cross Entropy is used to compare value of One hot encoding and prob. It is measure of how good is our prediction
+          We reduce cross entropy loss and its gradient to cal new wt.
+          Learning rate decay and momentun also HP which I have not used
+ . Well conditioned ip is very imp for GD. menaing data should ve 0 mean and sigma should be equl.
+ . Take weights from normal Gaussian distribution
+ .Pixel value should be 128-x/128 normalized
+ .GD does not convereg if loss is too big are too small, to get loss in range of values we do pre procssing of x an d wt
 

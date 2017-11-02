@@ -32,10 +32,16 @@
     Linear model cascade with non     linear model to make a stable non linear model to get more comples jobs done. Relus are hideen layers and non linear models
  . Back prop, computes derivate and thus gradient for each of wt in model   
  .Model save restore fine tune   
- .Add more layers for better models.
- .Regularization:are measures taken to avoid over fitting.
-    1. Stop training once validation scores are good.
-    2. L2 regularizing add term L2 to loss which penalize the large wt.
+ .Add more layers for better models.  
+ .Regularization:are measures taken to avoid over fitting.  
+    1. Stop training once validation scores are good.  
+    2. L2 regularizing add term L2 to loss which penalize the large wt.  
     3. Info flowing from 1 ly to other passes thru activation layer, here in drop out some % of info is drop to increase generalization   
+    
+    L1 regu is lasso 
+    L2 regu is ridge 
+    
+    Statistical Invariance, helps in wt sharing and leads to convolution Networks
+    Covnets share parameters across space npt recurent networks RNN
     
 

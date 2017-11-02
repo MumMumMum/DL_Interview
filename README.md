@@ -41,7 +41,11 @@
     L1 regu is lasso 
     L2 regu is ridge 
     
-    Statistical Invariance, helps in wt sharing and leads to convolution Networks
-    Covnets share parameters across space npt recurent networks RNN
+     Statistical Invariance, helps in wt sharing and leads to convolution Networks
+     Covnets share parameters across space not recurent networks RNN
+     
+     General Arch for convnets is convnet=pooling(max/avg)/convnet=pooling(max/avg)/fully connected layer/fully connected layer/ classifier
+     
+     Pooling layer: here we do con with small stride and combine parameters in neighborhood using max pooling or avg pooling. This reduce spatial info with parmeters loss and same depth.
     
 

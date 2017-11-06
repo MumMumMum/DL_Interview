@@ -1,3 +1,5 @@
+
+[slides for DL]http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/CVPR2012-Tutorial_lee.pdf
 # DL_Interview  
 . SSE = sum of squared error  
 . Precpeptron model= node edges activation function input weights    

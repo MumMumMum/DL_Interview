@@ -1,0 +1,23 @@
+SLAM Simultaneous localization and mappping  
+Sensor Lighat based LIdar.  
+    . velocity is infered
+Radio active base Radar.  
+    . velcoity is measured using doppler effect.
+    
+Gaussian Distribution: is  normal distribution. It follows central limit theorm if we take mean 
+of smaple set drawn from indivual independent process, and plot the frequency of events it follows Normal distribution.
+As Sample size increase the The ND peaks.
+
+Kalman Filter: Measurement <--> Update Localiztion
+    Measurement cycle : Bayes theorem p(a/b) = p(b/a).p(a)/p(b)
+    Update :total Prob is convolution
+    
+EKF: has complex motion models.They measure objects 
+
+RAdar Data:sensor_type, rho_measured, phi_measured, rhodot_measured, timestamp, x_groundtruth, y_groundtruth, 
+vx_groundtruth, vy_groundtruth, yaw_groundtruth, yawrate_groundtruth.
+
+Lidar:sensor_type, x_measured, y_measured, timestamp, x_groundtruth, y_groundtruth,
+vx_groundtruth, vy_groundtruth, yaw_groundtruth, yawrate_groundtruth.
+
+Localiztion:

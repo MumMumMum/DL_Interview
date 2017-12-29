@@ -55,6 +55,4 @@ How do you feel you could best contribute to our RoboCopilot initiative?
 vehicle technologies that rely on cameras, inertia sensors and GPS?  
 
 11.How do you feel you could best contribute to our RoboCopilot initiative? 
-
-
-Well, My only experience in AV is through SDC and afye
+Well, My only experience in Autonomous Vehicle is through SDC course. I have learnt few things from general reading here and there. Completing the course in SDC gives me a kind of confidence that yes any task seems doable. To work on modules in SDC is still like there is tarining happening and there are lables found. Its more like supervised learning. What remains is testing (my learning )model in unspervised domains. That is where industry experience comes.Hands on I need to do and try many more things.  I had no idea of LDF. I had read about IMU but still I am not sure how it works and how is it interfaced and used in collision detect. I have used simple app like LabelImg for my SDC project, but while answering your questionare realized there are many automated process and tools available. So every step has been a learning intiative. I am a novice in most these any field you could ask me to contribute I would not hesitate to try and come to solution.

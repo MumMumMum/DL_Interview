@@ -1,4 +1,4 @@
-##  Robocist familarity doc:  
+# Robocist familarity doc:  
 ### 1. Do you have experience with any of the following? If so, rate your proficiency (no experience, novice, experienced, expert)? Tensor Flow, Keras, OpenCV, OpenML, C, C++, Python, CUDA, ROS, OpenAI.   
 A.   On scale of 5 I would rate:  
 _ Tensor Flow -3 Used as part of course, still exploring on my own.   
@@ -10,27 +10,27 @@ _ CUDA - 1, Used it indirectly through tensorflow, But never used CUDA instructi
 _ ROS-1,  Used part of course, SDC but still a novice.  
 _ OpenAI-0 Never contributed nor used anything from there yet.  
 
-2.Road and Lane detection:  How clear do the markings on the road need to be?  Can it be done without road markings?  
+### 2.Road and Lane detection:  How clear do the markings on the road need to be?  Can it be done without road markings?  
 A.The marking on lanes if clear help in lane detection without ambugity.  
 If uder shadows and situation like not clear lane makrings are present, preprocessing should be dealt with.  
 Yes Lane detection can be marked even for roads that have not lane marking. With marking 
 Lane detection should never fail even if road markings are not seen like a situation where road is covered under heavy snow.  
 
 
-3.Object Detection:  Can you detect any object in the field of view that is moving 
-and if it is not recognized, label it as a "Blob'?  What method do you use for object Detection? 
+### 3.Object Detection:  Can you detect any object in the field of view that is moving and if it is not recognized, label it as a "Blob'?  What method do you use for object Detection? 
 A. Yes we can detect static as well as moving object in frame.
+We can have a set of classes we need to detect in frame, and if any obect detceted not found in that class can be called as blob.  
 I have used Tensorflow object detection api for the task of traffic light deetction and classification.
 used models ssd_mobilenet_v1_coco,rfcn_resnet101_coco,faster_rcnn_resnet101_coco  
 Also used HOG parameters for vehicle detection.  
+Currently working on cityscape dataset for Semantic Segmentation.
 
 
-4.Object Recognition:  What method do you use for this?  What objects have you developed recognition models for? 
+### 4.Object Recognition:  What method do you use for this?  What objects have you developed recognition models for? 
+A. Used object detection for Cars,Vehicles,road ,traffic light. Currently working on cityscape Dataset for Semantic segmenattion which has 30 classes of objects.
 
-5.Labeled Object Data Sets: Getting labeled image data to train the model is difficult and/or expensive. 
-Where do you get your labeled data sets?  What methods are you aware of to generate your own labeled data?  
-Is there a way to automate the process?  Are you aware of any labeling tools - which ones?  
-A. I have used LabelImg
+### 5.Labeled Object Data Sets: Getting labeled image data to train the model is difficult and/or expensive. Where do you get your labeled data sets?  What methods are you aware of to generate your own labeled data?  Is there a way to automate the process?  Are you aware of any labeling tools - which ones?  
+A. Getting labelled data is difficult and expensive. I have used so far free Datasets. I have used LabelImg for traffic light detection.
 
 
 6.Perception/Depth:  Our hardware use inertia sensors coupled with either a single camera (monocular) 

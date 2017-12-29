@@ -2,16 +2,16 @@ Robocist familarity doc:
 1. Do you have experience with any of the following?  
 If so, rate your proficiency (no experience, novice, experienced, expert)?  
 Tensor Flow, Keras, OpenCV, OpenML, C, C++, Python, CUDA, ROS, OpenAI.   
-A. On scale of 5 I would rate:  
-Tensor Flow -3 Used as part of course, still exploring on my own.   
-Keras - 2 Used as part of course, still exploring on my own. 
-OpenCV -2 Used as part of course, still exploring on my own. 
-OpenML-0 Not used.  
-C-4, C++ - 4, Python - 4:  
-CUDA - 1, Used it indirectly through tensorflow, But never used CUDA instruction set.  
-ROS-1,  Used part of course, SDC but still a novice.  
-OpenAI-0 Never contributed nor used anything from there yet.  
-  
+    A. On scale of 5 I would rate:  
+        . Tensor Flow -3 Used as part of course, still exploring on my own.   
+        . Keras - 2 Used as part of course, still exploring on my own. 
+        . OpenCV -2 Used as part of course, still exploring on my own. 
+        . OpenML-0 Not used.  
+        . C-4, C++ - 4, Python - 4:  
+        . CUDA - 1, Used it indirectly through tensorflow, But never used CUDA instruction set.  
+        . ROS-1,  Used part of course, SDC but still a novice.  
+        . OpenAI-0 Never contributed nor used anything from there yet.  
+
 2.Road and Lane detection:  How clear do the markings on the road need to be?  Can it be done without road markings?  
 A.The marking on lanes if clear help in lane detection without ambugity.  
 If uder shadows and situation like not clear lane makrings are present, preprocessing should be dealt with.  

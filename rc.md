@@ -1,7 +1,7 @@
 Robocist familarity doc:  
-# 1. Do you have experience with any of the following?  
-#    If so, rate your proficiency (no experience, novice, experienced, expert)?  
-#    Tensor Flow, Keras, OpenCV, OpenML, C, C++, Python, CUDA, ROS, OpenAI.   
+## 1. Do you have experience with any of the following?  
+##    If so, rate your proficiency (no experience, novice, experienced, expert)?  
+##   Tensor Flow, Keras, OpenCV, OpenML, C, C++, Python, CUDA, ROS, OpenAI.   
 A.   On scale of 5 I would rate:  
         * Tensor Flow -3 Used as part of course, still exploring on my own.   
         * Keras - 2 Used as part of course, still exploring on my own. 
